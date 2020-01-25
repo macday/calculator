@@ -1,0 +1,44 @@
+:root {
+    font: Arial Helvetica sans-serif;
+    width: 100%;
+    color: #f4f4f4;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    padding: 5px
+}
+
+.calculator {
+    width: 40%;
+    margin: auto;
+}
+
+.title {
+    font-size: larger;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.result {
+    text-align: end;
+    border: 1px white solid;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 20px 10px 10px 0px;
+    margin: auto;
+}
+
+.keypad {
+    border: 1px white solid;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin: auto;
+}
+
+.keypad .number {
+    border: none;
+    background-color: #555555;
+    color: #f4f4f4;
+    padding: 15px;
+    border-radius: 100%;
+}
