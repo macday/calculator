@@ -1,29 +1,28 @@
-:root {
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: larger;
-  width: 100%;
-  color: #1c1c1c;
-  background-color: #505050;
-  text-align: center;
-  margin: auto;
-  padding: 5px;
-}
-
 button {
   outline: 0;
 }
 
-.calculator {
-  width: 30%;
+body {  
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: larger;
+  width: 100%;
+  text-align: center;
   margin: auto;
-  min-width: 300px;
-  min-height: 600px;
+  padding: 5px;
 }
 
 .title {
   font-size: 150%;
   font-weight: 400;
   padding: 10px;
+  margin: auto;
+}
+
+.calculator {
+  width: 40%;
+  margin: auto;
+  min-width: 300px;
+  min-height: 600px;
 }
 
 .result {
