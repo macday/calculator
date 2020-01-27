@@ -22,19 +22,37 @@ body {
   width: 40%;
   margin: auto;
   min-width: 300px;
-  min-height: 600px;
+  min-height: 400px;
 }
 
 .result {
   margin: auto;
-  padding: 10% 3% 1% 3%;
-  text-align: end;
-  font-size: 250%;
+  padding: 5% 2% 1% 3%;
+  text-align: right;
+  font-size: 200%;
   font-weight: 200;
   background-color: #3c3c3c;
   color: white;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+}
+
+.result #output {
+  margin: 0px 3px;
+  overflow-x: scroll;
+}
+
+.result #output::-webkit-scrollbar {
+  height: 10%;
+}
+
+.result #output::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 3px #3c3c3c;
+}
+
+.result #output::-webkit-scrollbar-thumb {
+background-color: #b4b4b2;
+outline: 1px solid #3c3c3c;
 }
 
 .keypad {
@@ -43,11 +61,16 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.keypad .btn {
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
 .keypad .number {
   border: 1px solid #505050;
   background-color: #d4d4d2;
   color: #1c1c1c;
-  padding: 15px;
 }
 .keypad .number:active {
   background-color: #b4b4b2;
